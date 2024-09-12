@@ -1,0 +1,45 @@
+.cardContainer {
+    width: 100%;
+    border: 0.5px solid rgb(214, 213, 213);
+    border-radius: 7px;
+    padding: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background: white;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.cardContainer:hover {
+    transform: scale(1.05); /* Enlarge slightly on hover */
+}
+
+.cardContainer > * {
+    width: 100%;
+}
+
+.showStatus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 9px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
+
+.cardTags {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.tags {
+    width: max-content;
+    padding: 3px 9px;
+    border-radius: 5px;
+    border: 0.4px solid silver;
+}
+
+.dot {
+    font-size: 17px;
+    line-height: 0.8;
+}

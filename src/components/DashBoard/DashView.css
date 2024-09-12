@@ -1,0 +1,40 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: #f4f5f9;
+    
+    height: 100%;
+ padding: 5px 10px;
+}
+
+.dashCardContainer{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    width : 350px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+
+}
+
+ .plus{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+ /* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #f4f5f9;
+}
+
+.mainContainer {
+    min-height: 100vh; /* Ensure the container spans the full viewport height */
+   
